@@ -13,36 +13,31 @@ main 分支中是 需要补充的源码。
 
 - 先同意我发出的仓库协作邀请（当看到这个文档的时候你们就已经完成了）；
 - 点右上角的 Fork 按钮，将这个仓库 Fork 到你们自己的账户下；
-
-![fork](./doc/Images/1.png)
-
+  ![fork](./doc/Images/1.png)
 - 创建一个专门的 ROS 工作空间，在**自己**账号下的该代码仓库中，git clone 到自己的电脑上. 例如：
-```bash
-# 创建工作空间，这里放在 ~/ROSTutorial_ws 下，你可以放在任何你想放在的地方
-$ cd ~
-$ mkdir ROSTutorial_ws
-$ cd ROSTutorial_ws
-# 这里的链接在 Github 上可以直接生成，看下图
-$ git clone https://github.com/xxx/ROSTutorial_Advance.git
-# 其实这个仓库就是 ROS 工作空间下 src 文件夹的内容，咱们直接修改为 src
-$ mv ./ROSTutorial_Advance ./src   
-# 初始化 ROS 工作空间
-$ cd src && catkin_init_workspace
-# 进行编译
-$ catkin_make 
-
-
-
-TODO 补充
-
-```
-
+  ```bash
+  # 创建工作空间，这里放在 ~/ROSTutorial_ws 下，你可以放在任何你想放在的地方
+  $ cd ~
+  $ mkdir ROSTutorial_ws
+  $ cd ROSTutorial_ws
+  # 这里的链接在 Github 上可以直接生成，看下图
+  $ git clone https://github.com/xxx/ROSTutorial_Advance.git
+  # 其实这个仓库就是 ROS 工作空间下 src 文件夹的内容，咱们直接修改为 src
+  $ mv ./ROSTutorial_Advance ./src   
+  # 初始化 ROS 工作空间
+  $ cd src
+  $ catkin_init_workspace
+  # 进行编译, 这个过程不应该有错误发生
+  $ catkin_make 
+  ```
+  关于链接的获取：
+  ![链接获取](doc/Images/2.png)
   > 注意使用 git clone 的方式，不要下载 zip 的方式，这种方式只有代码本身，不会包含代码仓库信息
 - 在**自己**的电脑上新建自己命名的分支（branch），**务必确保**在**自己**的分支下操作和处理代码；
 - 看讲义[0](./doc/Guides/0、Turtlebot3-SLAM与导航虚拟仿真实验-课前准备.pdf)、[1](./doc/Guides/1、Turtlebot3-SLAM与导航虚拟仿真实验-讲义.pdf)，跟着做基础的实验；
 - 跟着讲义完成教程、补全代码、完成预期功能；
 - 现阶段你们在做实验的过程中，有困难或者吃力的感觉是正常的，有什么不懂或者疑惑的随时问我；
-- 每当做出了关键性的进展要**及时提交**(commit)到本地代码仓库，并且**及时同步**到自己账号下Github的代码仓库；这是避免因为误删等意外原因，及时止损的关键办法，要养成及时commit的习惯；
+- 每当做出了关键性的进展要**及时提交**(commit)到本地代码仓库，并且**及时同步**到自己账号下Github的代码仓库；这是避免因为误删等意外原因，及时止损的关键办法，要养成及时commit的习惯；善用 branch；
 - 每完成一个功能包的代码补全，确保本地代码同步到**自己**的Github仓库后，提交一个 Merge 请求到**这个**仓库和你们自己名字相关的branch下，由师兄来负责 Code review 和代码合并。
 
 ## 一些注意事项
