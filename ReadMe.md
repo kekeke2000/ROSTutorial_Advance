@@ -34,16 +34,20 @@ main 分支中是 需要补充的源码。
   ![链接获取](doc/Images/2.png)
   > 注意使用 git clone 的方式，不要下载 zip 的方式，这种方式只有代码本身，不会包含代码仓库信息
 - 在**自己**的电脑上新建自己命名的分支（branch），**务必确保**在**自己**的分支下操作和处理代码；
-- 看讲义[0](./doc/Guides/0、Turtlebot3-SLAM与导航虚拟仿真实验-课前准备.pdf)、[1](./doc/Guides/1、Turtlebot3-SLAM与导航虚拟仿真实验-讲义.pdf)，跟着做基础的实验；
+- 看讲义[0](./doc/Guides/0、Turtlebot3-SLAM与导航虚拟仿真实验-课前准备.pdf)、[1](./doc/Guides/1、Turtlebot3-SLAM与导航虚拟仿真实验-讲义.pdf)，跟着做基础的实验。讲义建议下载后查看，在线查看好像有问题；
 - 跟着讲义完成教程、补全代码、完成预期功能；
 - 现阶段你们在做实验的过程中，有困难或者吃力的感觉是正常的，有什么不懂或者疑惑的随时问我；
 - 每当做出了关键性的进展要**及时提交**(commit)到本地代码仓库，并且**及时同步**到自己账号下Github的代码仓库；这是避免因为误删等意外原因，及时止损的关键办法，要养成及时commit的习惯；善用 branch；
 - 每完成一个功能包的代码补全，确保本地代码同步到**自己**的Github仓库后，提交一个 Pull Requests到**师兄账户**下的仓库中、和你们自己名字相关的branch下。大致操作：
   - 在 Github 仓库页面，点击 `Pull Request` 选项卡：
-  
-
-
-由师兄来负责 Code review 和代码合并。
+  ![选择Pull Request](./doc/Images/3.png)
+  - 点击 `Create pull request` 按钮：
+  ![Create Pull Request](./doc/Images/4.png)
+  - 在新的界面中，选择提交合并申请的源仓库及分支，并指定目标仓库和分支。由于我自己没法完整演示，这里贴一个之前我将自己代码 pull request 到其他人仓库的例子：
+  ![选择分支和仓库](./doc/Images/5.png)
+  - 一定要选择正确的，和你们名字对应的分支，如：
+  ![选择对应的分支](./doc/Images/6.png)
+  `Pull request`可能提示没有冲突（即`Able to merge`），也可能提示有冲突，这个都不要紧。多人代码协作时有冲突是十分正常的，这些冲突未来将由师兄来负责进行Code Review。
 
 ## 一些注意事项
 
