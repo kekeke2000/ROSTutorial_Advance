@@ -2,10 +2,10 @@
 <launch>
 
     <!-- TODO 补全 -->
-     
-        <node name = "sequence_goal" pkg = "advanced_navi" type = "sequence_goal" output="screen"
-            args = "$(find advanced_navi)/data/landmarks.txt"
+    <!-- 
+        <node ___________________ output="screen"
+            ___________________
         /> 
-    
+    -->
 
 </launch> 
