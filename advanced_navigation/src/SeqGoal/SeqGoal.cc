@@ -258,7 +258,7 @@ private:
  * @brief 主函数
  * @param[in] argc 命令行参数个数
  * @param[in] argv 命令行参数表列
- * @return int     执行返回码
+ * @return int    执行返回码
  */
 int main(int argc, char **argv)
 {
