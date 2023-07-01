@@ -3,7 +3,7 @@
  * @author guoqing (1337841346@qq.com)
  * @brief 节点基类, 提供基本的功能实现
  * @version 0.1
- * @date 2020-06-01
+ *
  * 
  * @copyright Copyright (c) 2020
  * 
